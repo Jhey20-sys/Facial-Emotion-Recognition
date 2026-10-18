@@ -1,0 +1,14 @@
+# Dataset (download separately, see README)
+data/
+_download/
+
+# Large / regenerable files
+features/
+models/torch_hub/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Word lock files
+~$*
