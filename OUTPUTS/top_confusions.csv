@@ -1,0 +1,11 @@
+model,true,predicted,percent_of_true
+Logistic Regression,disgust,angry,20.9
+Logistic Regression,fear,sad,16.6
+Logistic Regression,sad,angry,16.1
+Logistic Regression,sad,neutral,16.0
+Logistic Regression,fear,surprise,14.8
+SVM (RBF),disgust,angry,24.5
+SVM (RBF),fear,sad,20.2
+SVM (RBF),sad,neutral,18.1
+SVM (RBF),angry,sad,17.8
+SVM (RBF),neutral,sad,16.2

@@ -1,0 +1,15 @@
+model,emotion,precision,recall,f1,support
+Logistic Regression,angry,0.3613,0.3741,0.3676,957
+Logistic Regression,disgust,0.1553,0.4364,0.2291,110
+Logistic Regression,fear,0.359,0.305,0.3298,1023
+Logistic Regression,happy,0.6857,0.6497,0.6672,1773
+Logistic Regression,sad,0.4126,0.3676,0.3888,1246
+Logistic Regression,surprise,0.555,0.6627,0.6041,830
+Logistic Regression,neutral,0.4644,0.4602,0.4623,1232
+SVM (RBF),angry,0.4151,0.442,0.4281,957
+SVM (RBF),disgust,0.404,0.5545,0.4674,110
+SVM (RBF),fear,0.441,0.3216,0.372,1023
+SVM (RBF),happy,0.713,0.6475,0.6787,1773
+SVM (RBF),sad,0.4184,0.4567,0.4367,1246
+SVM (RBF),surprise,0.6598,0.7289,0.6926,830
+SVM (RBF),neutral,0.47,0.5219,0.4946,1232
