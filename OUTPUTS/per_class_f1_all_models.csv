@@ -1,0 +1,8 @@
+emotion,Logistic Regression,SVM (RBF),Random Forest
+angry,0.3676,0.4281,0.3195
+disgust,0.2291,0.4674,0.4286
+fear,0.3298,0.372,0.327
+happy,0.6672,0.6787,0.5732
+sad,0.3888,0.4367,0.4032
+surprise,0.6041,0.6926,0.6773
+neutral,0.4623,0.4946,0.4259

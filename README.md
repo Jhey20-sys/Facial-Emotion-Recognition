@@ -19,15 +19,18 @@ A simple end-to-end facial emotion recognition system on the FER2013 dataset (7 
 |---|---|---|---|---|
 | Logistic Regression | 0.4804 | 0.4276 | 0.4651 | 0.4356 |
 | SVM (RBF) | 0.5268 | 0.5030 | 0.5247 | 0.5100 |
+| Random Forest (extra check) | 0.4808 | 0.5779 | 0.4287 | 0.4507 |
+
+The SVM is the main second model. The Random Forest was trained afterwards on the same features as an extra check, and it confirmed that the SVM is the better choice. Each model's confusion matrix has its own color: purple for Logistic Regression, green for SVM, orange for Random Forest.
 
 All comparison results are saved as CSV files in `OUTPUTS/`:
 
-- `model_comparison.csv` holds the overall metrics and training time.
-- `per_class_metrics.csv` and `per_class_f1_comparison.csv` hold each emotion's precision, recall and F1.
-- `confusion_matrix_logistic.csv` and `confusion_matrix_svm.csv` hold the 7×7 confusion matrices.
+- `model_comparison.csv` holds the overall metrics and training time. `model_comparison_all_models.csv` is the same table with the Random Forest added.
+- `per_class_metrics.csv`, `per_class_f1_comparison.csv` and `per_class_f1_all_models.csv` hold each emotion's precision, recall and F1.
+- `confusion_matrix_logistic.csv`, `confusion_matrix_svm.csv` and `confusion_matrix_rf.csv` hold the 7×7 confusion matrices.
 - `top_confusions.csv` lists the most commonly confused emotion pairs.
 - `logreg_validation.csv` has the validation results used to choose C.
-- `test_predictions.csv` has both models' predictions for every test image.
+- `test_predictions.csv` has every test image's predictions from all three models.
 - `unseen_predictions.csv` has the predict-function results.
 
 The lab write-up is in `GULDE_Week 7 - Facial Emotion Recognition.docx`.
